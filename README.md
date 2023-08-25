@@ -28,8 +28,8 @@ This is an e-commerce site that allows users to browse and purchase electronic p
 1. Clone the repository.
 2. Install the required dependencies.
 3. install admin panal dashboard from link https://drive.google.com/file/d/16pTQoDx3NtydrM9_hs-ywE4ewE6rTRtR/view?pli=1
-3. install User dashboard from  template Eflyer linke https://themewagon.com/themes/free-bootstrap-4-html5-ecommerce-website-template-eflyer/ 
-5. Run the application.
+4. install User dashboard from  template Eflyer linke https://themewagon.com/themes/free-bootstrap-4-html5-ecommerce-website-template-eflyer/ 
+
 
 ## Usage
 1. Open the website in your preferred web browser.
