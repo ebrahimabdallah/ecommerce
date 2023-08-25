@@ -47,6 +47,7 @@ The Website is created using Laravel framework
 ![image1](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/7a097b3f-7a50-4a2d-b1af-ba72cab4783f)
 
 ![imaege2](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/22010fb4-52e3-47f0-a373-796bdabfe2a1)
+
 ![image4](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/782bcb24-32f9-4d31-84e0-4222dde13eef)
 ![image5](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/6cd5afce-3113-47b1-bbf9-6a162737e358)
 ![image6](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/35b77d6a-5fea-4b83-830a-c00aea7d17d7)
@@ -57,6 +58,8 @@ The Website is created using Laravel framework
 ![admin](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/c88c946c-c2fe-4e3c-91d8-062d195c8e30)
 ![admin4](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/d78778a3-b13d-4298-b35c-f94360a2d969)
 ![admin6](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/52284d82-79e2-409d-ac5b-8b1f5295ed5f)
+![shiiping](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/4a75ed78-000f-44f4-9c72-a1dd48526b28)
+
 ![admin45](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/5bf9c6f4-89c7-4f49-862f-8a39a5413621)
 ![admin3](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/abe75200-0afd-49f4-9272-c085e7a5b0eb)
 
