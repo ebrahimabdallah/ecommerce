@@ -39,7 +39,7 @@ This is an e-commerce site that allows users to browse and purchase electronic p
 5. Confirm the order.
 6. As an admin, access the control panel to manage products and orders.
 
-#Website Screensots
+## Website Screenshots
 ------------------------------
 ![image1](https://github.com/ebrahimabdallah/ecommerce/assets/119238955/7a097b3f-7a50-4a2d-b1af-ba72cab4783f)
 
