@@ -42,11 +42,19 @@ Route::controller(HomeController::class)->group(function(){
 
 });
 
-    Route::controller(ClientController::class)->group(function(){
+
+Route::controller(ClientController::class)->group(function(){
+    
     Route::get('/category/{id}/{slug}','CategoryPage')->name('category');
     
     Route::get('/Product_details/{id}/{slug}','SingleProduct')->name('singleProduct');
     Route::get('/new_realse','NewRealse')->name('new_realse');
+;
+});
+
+Route::middleware(['auth','role:users'])->group(function () {
+    Route::controller(ClientController::class)->group(function(){
+    
     Route::get('/addToCart','AddToCart')->name('addToCart');
 
     Route::get('/delete-cart/{id}','DeleteCart')->name('deleteCart');
@@ -71,9 +79,11 @@ Route::controller(HomeController::class)->group(function(){
 
     Route::get('/custom_service','CustomService')->name('custom-service');
  });
+});
 
 
- Route::middleware('auth')->group(function () {
+
+Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
