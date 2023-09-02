@@ -21,12 +21,9 @@ class CategoryController extends Controller
     {
         return view('admin.Category.add-category');
     }
-    public function storeCategory(Request $request)
+    public function storeCategory(AddCategoryRequest $request)
     {
-        $request->validate([
-            'Category_name' => 'required|unique:Categories'
-        ]);
-    
+      
         Category::create([
             'Category_name' => $request->input('Category_name'),
             'slug' => strtolower(str_replace(' ', '-', $request->input('Category_name')))
