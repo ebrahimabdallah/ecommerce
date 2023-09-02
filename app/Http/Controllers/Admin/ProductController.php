@@ -23,21 +23,9 @@ class ProductController extends Controller
 
         return view('admin.products.addproducts',compact('subcategories','categories'));
     }
-    public function Storeproducts(Request $request)
+    public function Storeproducts(AddProductRequest $request)
     {
    
-
-        $request->validate([
-            'product_name' => 'required|unique:products',
-            'price' => 'required',
-            'product_long_des' => 'required',
-            'product_short_des' => 'required|max:100',
-            'product_category_id' => 'required',
-            'product_subcategory_id' => 'required',
-            'quantity' => 'required',
-            'product_img' => 'required|image|mimes:jpeg,png,jpg,gif|max:2058',
-
-        ]);
        
         //upload image to storage in public /upload and store in db
         $image=$request->file('product_img');
