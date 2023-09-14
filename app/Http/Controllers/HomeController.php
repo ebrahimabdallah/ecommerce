@@ -11,6 +11,15 @@ use Inertia\Inertia;
 
 class HomeController extends Controller
 {
+
+  public function Search(Request $request)
+  {
+       $search=$request->search;
+        $Products=Products::where('product_name','like','%'.$search.'%')->get();
+       return view('user_template.home',compact('Products'));
+      }
+
+
     public function index()
 
      {
