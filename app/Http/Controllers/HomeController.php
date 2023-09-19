@@ -26,7 +26,7 @@ class HomeController extends Controller
          $Products=Products::latest()->get();
           return view('user_template.home',compact('Products'));
     }
-  public function reg(Request $request) //register a session 
+  public function register(Request $request) //register a session 
   {
 
     Auth::logout();
