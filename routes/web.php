@@ -38,7 +38,7 @@ Route::controller(HomeController::class)->group(function(){
 
     
     Route::get('index','index')->name('Home');
-    Route::get('register','register')->name('reg');  //register a session 
+    Route::get('logout','logout')->name('logout');  //logout a session 
     Route::get('/Search','Search')->name('Search');
 
 });
