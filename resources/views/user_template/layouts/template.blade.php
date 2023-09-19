@@ -69,7 +69,7 @@ $categories=Category::latest()->get();
                            <li><a href="{{route('Home')}}">Home</a></li>
                            <li><a href="#">Best Sellers</a></li>
                            <li><a href="">Gift Ideas</a></li>
-                           <li><a href="{{route('reg')}}">LogOut</a></li>
+                           <li><a href="{{route('logout')}}">LogOut</a></li>
                          
                        </ul>
                      </div>
