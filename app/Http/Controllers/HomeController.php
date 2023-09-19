@@ -26,13 +26,13 @@ class HomeController extends Controller
          $Products=Products::latest()->get();
           return view('user_template.home',compact('Products'));
     }
-  public function register(Request $request) //register a session 
+  public function logout(Request $request) //logout a session 
   {
 
     Auth::logout();
     $request->session()->invalidate();
     $request->session()->regenerateToken();
-    return redirect('');
+    return redirect('login');
   }
   
 }
