@@ -13,6 +13,7 @@ This is an e-commerce site that allows users to browse and purchase electronic p
 - View product listings
 - View detailed product information
 - Add products to the cart
+- Search for any product
 - Proceed to checkout and provide order details
 - Confirm the order
 
