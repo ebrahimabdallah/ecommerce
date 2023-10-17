@@ -5,7 +5,7 @@ This is an e-commerce site that allows users to browse and purchase electronic p
 
 ## Features
 - Browse and view electronic products
-- Add products to the cart
+- Add product to the cart
 - Provide phone number, location, and Postal code for order confirmation
 - Admin control panel for managing products and orders
 
